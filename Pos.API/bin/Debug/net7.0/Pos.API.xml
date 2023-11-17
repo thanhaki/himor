@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Pos.API</name>
+    </assembly>
+    <members>
+        <member name="M:Pos.API.Common.Utilities.GetStringArray(System.String)">
+            <summary>
+            Convert a string to an array using the default separator ',' 
+            </summary>
+            <param name="keyName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pos.API.Common.Utilities.GetStringArray(System.String,System.Char)">
+            <summary>
+            Convert a string to an array using the separator
+            </summary>
+            <param name="keyName"></param>
+            <param name="separator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pos.API.Common.Utilities.FormatCode(System.String,System.Int32,System.String)">
+            <summary>
+            Format code primary key
+            Example: HD0001, KH00001
+            </summary>
+            <param name="prefix"></param>
+            <param name="length"></param>
+            <param name="currentcode"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Pos.API.Constans.CmContext">
+            <summary>
+            Common Context for define some text
+            </summary>
+        </member>
+        <member name="M:Pos.API.Controllers.UserController.ForgotPassword(Pos.API.Application.Features.VerifyCode.Commands.ForgetPasswordCommand.UpdatePasswordRequest)">
+            <summary>
+            Forgot password
+            return: 0 user not found, 1 success, -1 confirm code is not exists or expired
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pos.API.Controllers.UserController.GetUserById(Pos.API.Application.Features.User.Queries.GetUserByIdQuery.QueryById)">
+            <summary>
+            Forgot password
+            return: 0 user not found, 1 success, -1 confirm code is not exists or expired
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pos.API.Controllers.UserController.ChangePassword(Pos.API.Application.Features.VerifyCode.Commands.ChangePasswordCommand.ChangePasswordRequest)">
+            <summary>
+            Update password
+            return: 0 user not found, 1 success, -1 confirm code is not exists or expired
+            </summary>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Pos.API.Controllers.VerifyCodeController.SendCodeForgotPassword(Pos.API.Application.Features.VerifyCode.Commands.UpdateVerifyCodeCommand.AddCodeRequest)">
+            <summary>
+            Send code in case forgot password
+            Return 0: User is not exists in system, 1 code sent
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
