@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\himorning\\Pos.API\\Pos.API.csproj": {}
+    "E:\\himor\\Pos.API\\Pos.API.csproj": {}
   },
   "projects": {
-    "E:\\himorning\\Pos.API\\Pos.API.csproj": {
+    "E:\\himor\\Pos.API\\Pos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\himorning\\Pos.API\\Pos.API.csproj",
+        "projectUniqueName": "E:\\himor\\Pos.API\\Pos.API.csproj",
         "projectName": "Pos.API",
-        "projectPath": "E:\\himorning\\Pos.API\\Pos.API.csproj",
+        "projectPath": "E:\\himor\\Pos.API\\Pos.API.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "E:\\himorning\\Pos.API\\obj\\",
+        "outputPath": "E:\\himor\\Pos.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",

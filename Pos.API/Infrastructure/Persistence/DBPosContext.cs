@@ -15,15 +15,6 @@ namespace Pos.API.Infrastructure.Persistence
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.Entity<M_ThucDon_MatHang>().HasKey(table => new
-            {
-                table.Ma_TD, table.Ma_MH
-            });
-            builder.Entity<T_DonHangChiTiet>().HasKey(table => new
-            {
-                table.SoDonHang,
-                table.Ma_MH
-            });
 
             builder.Entity<M_NhomQuyen_ChucNang>().HasKey(table => new
             {
@@ -40,40 +31,6 @@ namespace Pos.API.Infrastructure.Persistence
             builder.Entity<M_DonVi>().HasKey(table => new
             {
                 table.DonVi,
-            });
-
-            builder.Entity<M_KhuyenMai_ApDung>().HasKey(table => new
-            {
-                table.SoKhuyenMaiApDung,
-                table.SoKhuyenMai
-            });
-
-            builder.Entity<M_KhuyenMai_DoiTuong>().HasKey(table => new
-            {
-                table.SoKhuyenMaiDoiTuong,
-                table.SoKhuyenMai
-            });
-            builder.Entity<M_KhuyenMai_KhoangThoiGian>().HasKey(table => new
-            {
-                table.SoKhuyenMaiKhoangThoiGian,
-                table.SoKhuyenMai
-            });
-            builder.Entity<T_PhieuNhapXuat_ChiTiet>().HasKey(table => new
-            {
-                table.Ma_PNX,
-                table.Ma_MH
-            });
-            builder.Entity<T_LichSuTichDiem_KhachHang>().HasKey(table => new
-            {
-                table.MaLichSuTichDiem,
-                table.Ma_KH,
-                table.SoDonHang,
-            });
-            builder.Entity<T_LichCongTac_NhanVien>().HasKey(table => new
-            {
-                table.So_NV,
-                table.Month,
-                table.Year,
             });
         }
 

@@ -20,8 +20,6 @@ namespace Pos.API.Application.Mappings
             .ForMember(destination => destination.FullName, options => options.MapFrom(source => source.TenDonVi));
            
 
-            CreateMap<BillResponse, T_DonHang>().ReverseMap();
-            CreateMap<ItemMatHangDH, T_DonHangChiTiet>().ReverseMap();
         }
     }
 }

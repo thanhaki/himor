@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "axrG36m93r8skcPch1l3j0/aL3d72wBHvdj0px4UljyUpF7JnBhGSl4rsj033fLUTqu4kY1WvnplTVe+s4146g==",
+  "dgSpecHash": "0BVcHZl0q6Ht8w+E+o9KbCcENcT35qbR7vSy1Jn4SRzA7Z/2ohqjmNsH4FYOx1Cj1XxPwjtV3C2L2s6m04j57g==",
   "success": true,
-  "projectFilePath": "E:\\himorning\\Pos.API\\Pos.API.csproj",
+  "projectFilePath": "E:\\himor\\Pos.API\\Pos.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
